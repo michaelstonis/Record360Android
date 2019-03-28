@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <remove-node path="/api/package[@name='org.bytedeco.javacv']/class[@name='AndroidFrameConverter']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ByteArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacv']/class[@name='OpenCVFrameConverter']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacv']/class[@name='ProCamTransformer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ByteBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='CharRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='FloatRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='CharBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ByteIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='DoubleBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='FloatArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='CharIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ByteRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='DoubleRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='DoubleArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='DoubleIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='FloatBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='FloatIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='HalfIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacv']/class[@name='ProjectiveTransformer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='HalfArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='IntIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='IntArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp']/class[@name='opencv_video']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='LongRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='LongIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UByteRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ShortIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='LongBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UByteIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ShortRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='ShortBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UByteArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UShortRawIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UShortIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UShortArrayIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacpp.indexer']/class[@name='UShortBufferIndexer']" />
+    <remove-node path="/api/package[@name='org.bytedeco.javacv']/class[@name='ProjectiveDevice']" />
+    
+    <remove-node path="/api/package[@name='com.record360.sdk.manager']/class[@name='TransactionManager']/method[@name='A' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.record360.sdk.manager']/class[@name='TransactionManager']/method[@name='B' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.record360.sdk.manager']/class[@name='TransactionManager']/method[@name='C' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.record360.sdk.manager']/class[@name='TransactionManager']/method[@name='D' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.record360.sdk.manager']/class[@name='TransactionManager']/method[@name='E' and count(parameter)=0]" />
+    
+    <attr path="/api/package[@name='com.record360.sdk']/class[@name='Record360Activity.1']" name="name">Record360Activity</attr>
+    <attr path="/api/package[@name='com.record360.sdk']/class[@name='Record360Activity.1']" name="name">Record360Activity</attr>
+</metadata>
